@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.personal img {
+  margin: 30px 85px;
+  width: 165px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+.personal {
+  background-color: rgba(17, 17, 157, 0.998);
+  color: #fff;
+  padding: 0 20px 20px;
+  width: 100vw;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal h2 {
+  font-weight: 500;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+
+.personal ul {
+  padding: 0;
+  margin: 0;
+}
+
+.personal ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.personal ul li i {
+  margin-right: 10px;
+}
+
+.personal ul .address {
+  margin-bottom: 0;
+}
+
+.personal ul .city-name {
+  margin: 0 0 10px 32px;
+}
+
+.personal .skill li {
+  list-style: disc;
+  margin: 20px 15px;
+}
+
+.profile {
+  background-color: rgba(225, 224, 231, 0.623);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile h1 {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  color: rgba(17, 17, 157, 0.998);
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+
+.profile .big-title {
+  background-color: rgba(17, 17, 157, 0.998);
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 2px 2px 1px #888;
+}
+
+.profile .big-title h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.profile .break {
+  background-color: rgba(17, 17, 157, 0.998);
+  height: 5px;
+  border-radius: 5px;
+  margin: 0 0 10px;
+}
+
+.profile .para {
+  font-size: 1rem;
+  padding-left: 25px;
+  text-indent: 40px;
+}
+
+.profile ul li {
+  margin: 10px 0;
+}
+
+.profile .small-title {
+  background-color: rgba(17, 17, 157, 0.998);
+  margin: 2px 0;
+  padding-left: 25px;
+  display: flex;
+  color: #fff;
+  max-width: 500px;
+}
+
+.profile .small-title h3 {
+  text-decoration: underline;
+  margin: 2px 0;
+}
+
+.profile .small-title p {
+  margin: 2px 0;
+}
+
+.profile .small-title ul {
+  margin: 2px 0;
+  padding: 0;
+}
+
+.profile .small-title ul li {
+  list-style: circle;
+  margin: 10px 15px;
+}
+
+.work {
+  margin: 0 0 10px 20px;
+}
+
+.acknowledgement {
+  text-indent: 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-left: 25px;
+}
+
+.profile .date-place {
+  align-self: flex-end;
+}
+
+.profile .date-place ul {
+  padding: 0;
+}
+
+.profile .date-place ul li {
+  list-style: none;
+}
+
+@media (max-width: 830px) {
+  .profile h1 {
+    font-size: 1.8rem;
+  }
+}
